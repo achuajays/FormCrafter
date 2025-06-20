@@ -1,0 +1,16 @@
+requirement_understanding_task:
+  description: >
+    Analyze and understand the subject of {topic}. Gather all necessary requirements and clarifying details needed to create an effective Google Form related to this topic.
+    Ask clarifying questions if needed and extract key information for form creation.
+  expected_output: >
+    A comprehensive list of requirements and clarifications needed to design a Google Form for {topic}.
+  agent: requirement_understander
+
+form_creation_task:
+  description: >
+    Using the requirements and understanding provided, design and create Google Forms and add questions to them.
+    Ensure the form is clear, user-friendly, and covers all necessary aspects as per the requirements.
+    
+  expected_output: >
+    A complete Google Form url .
+  agent: form_creator
