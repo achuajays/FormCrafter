@@ -91,11 +91,6 @@ SERVICEJSON=/path/to/your/google-service-account.json
 ```bash
 # Execute the form creation process
 crewai run
-
-# Alternative execution methods
-python -m googleform.main
-# or
-googleform
 ```
 
 ## 💡 Usage Examples
