@@ -1,5 +1,6 @@
 # FormCrafter 🚀
 
+![FormCrafter](FormCrafter.png)
 **An AI-Powered Google Forms Creation System using CrewAI**
 
 FormCrafter is an intelligent multi-agent system that automates the creation of Google Forms based on natural language requirements. Powered by CrewAI, it leverages the collaborative intelligence of specialized AI agents to understand your form requirements and generate professional Google Forms automatically.
